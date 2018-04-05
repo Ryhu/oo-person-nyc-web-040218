@@ -45,7 +45,8 @@ class Person  attr_reader :name, :hygiene, :happiness
 
  end  
  
- def counter(op, value, change)    if op == “+”
+ def counter(op, value, change)    
+   if op == “+”
      value += change
      if value > 10
        value = 10
@@ -57,7 +58,10 @@ class Person  attr_reader :name, :hygiene, :happiness
        value = 0
      end
      return value
-   end  end  def happy?
+   end  
+end  
+   
+def happy?
    if @happiness > 7
      true
    else
