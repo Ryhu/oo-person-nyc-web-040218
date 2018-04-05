@@ -92,7 +92,13 @@ def happy?
    return "Hi #{self.name}! It's #{another_person.name}. How are you?"
  end  
  
- def start_conversation
+ def start_conversation(another_person, topic)
+   if topic == "politics"
+     self.happiness=(@happiness-2)
+     another_person.happiness=(another_person.happiness -2)
+     return "blah blah partisan blah lobbyist"
+   end
+   
  end
  
  end
