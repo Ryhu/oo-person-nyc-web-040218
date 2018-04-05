@@ -89,6 +89,7 @@ def happy?
  def call_friend(another_person)
    self.happiness=(@happiness+3)
    another_person.happiness=(another_person.happiness + 3)
+   return "Hi #{self.name}! It's #{another_person.name}. How are you?"
  end  
  
  def start_conversation
