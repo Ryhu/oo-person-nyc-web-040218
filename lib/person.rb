@@ -11,7 +11,7 @@ class Person  attr_reader :name, :hygiene, :happiness
    @happiness = 8
  end  
  
- def hygiene=(input)
+ def hygiene(input)
    
    if input > 10
      @hygiene = 10
@@ -23,7 +23,7 @@ class Person  attr_reader :name, :hygiene, :happiness
    
  end  
  
- def happiness=(input)
+ def happiness(input)
    
    if input > 10
      @happiness = 10
