@@ -86,7 +86,8 @@ def happy?
    return "♪ another one bites the dust ♫"
  end  
  
- def call_friend
+ def call_friend(another_person)
+   
  end  
  
  def start_conversation
