@@ -76,13 +76,13 @@ def happy?
  end  
  
  def take_bath()
-   hygiene= (@hygiene + 4)
+   hygiene=(@hygiene + 4)
    return "♪ Rub-a-dub just relaxing in the tub ♫"
  end  
  
  def work_out
-   happiness= (@happiness+2)
-   hygiene= (@hygiene-3 )
+   happiness=(@happiness+2)
+   hygiene=(@hygiene-3 )
    return "♪ another one bites the dust ♫"
  end  
  
