@@ -81,8 +81,8 @@ def happy?
  end  
  
  def work_out
-   happiness= (@happiness+2)
-   hygiene=(@hygiene-3 )
+   happiness(@happiness+2)
+   hygiene(@hygiene-3 )
    return "♪ another one bites the dust ♫"
  end  
  
