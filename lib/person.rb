@@ -86,4 +86,6 @@ class Person  attr_reader :name, :hygiene, :happiness
  end  
  
  def start_conversation
- endend
+ end
+ 
+ end
